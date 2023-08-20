@@ -1,7 +1,7 @@
 :root {
     --main-dark: #1f2937;
     --main-primary: #f9faf8;
-    --main-secondary: #a8a9ab;
+    --main-secondary: #e5e7eb;
     --main-blue: #3882f6;
 }
 
@@ -165,4 +165,87 @@ a {
 .about-content-description {
     text-align: center;
     color: var(--main-dark);
+}
+
+/* section-quote */
+.section-quote {
+    background-color: var(--main-secondary);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--main-dark);
+    font-weight: 100;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+/* section-contact */
+.section-contact {
+    background-color: var(--main-primary);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    background-color: var(--main-blue);
+    width: 60%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-card-text-title {
+    color: var(--main-primary);
+}
+
+.contact-card-text-subtitle {
+    color: var(--main-secondary);
+}
+
+.contact-card-button {
+    background-color: var(--main-blue);
+    color: var(--main-primary);
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--main-primary);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-card-button:hover {
+    background-color: var(--main-primary);
+    color: var(--main-blue);
+}
+
+/* footer */
+footer {
+    background-color: var(--main-dark);
+    color: var(--main-secondary);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

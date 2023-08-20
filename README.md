@@ -2,4 +2,4 @@
 
 ## Landing page practice
 
-Using HTML CSS
+Using HTML CSS to implement a landing page based on the design.
